@@ -39,16 +39,17 @@ int main(){
 } // end main
   
 /*
- * algorithm for sort function
+ * algorithm for sort
  * 0. parameter: int pointer
  * 1. for i from zero to MAX - 1:
        i. for j from zero to MAX - 1:
            a. if array[j] > array[j+1]:
               1. swap array[j] with array[j+1]
               2. printArray(array)
-	   b. end for j
-       ii. end for i
- * 2. end sort
+	   b. end if
+       ii. end for j
+   2. end for i
+ * 3. end sort
 */
 void sort(int* array) {
 	for (int i = 0; i < MAX; i++) {
@@ -61,7 +62,7 @@ void sort(int* array) {
 	} // end for i
 } // end sort
 
-/* algorithm for swap function
+/* algorithm for swap
  * 0. parameters: int pointer a, int pointer b
  * 1. create an int variable to temporarily hold one of the values
  * 2. assign the value at a to temp
@@ -76,7 +77,7 @@ void swap(int* a, int* b) {
 	*b = temp;
 } // end swap
 
-/* algorithm for printValues function
+/* algorithm for printValues
  * 0. parameter: int pointer
  * 1. print a bracket
  * 2. for every element in array from i = 0 to i = length - 1
