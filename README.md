@@ -11,13 +11,13 @@
 1. end main
 ## Algorithm for sort
 0. parameter: int pointer
-1. for i from zero to MAX - 1:
-       i. for j from zero to MAX - 1:
-           1. if array[j] > array[j+1]:
-              1. swap array[j] with array[j+1]
-              1. printArray(array)
-              1. end if
-	   1. end for j
+1. for i from zero to MAX - 1
+    1. for j from zero to MAX - 1
+        1. if array[j] > array[j+1]
+            1. swap array[j] with array[j+1]
+            1. printArray(array)
+            1. end if
+	    1. end for j
 1. end for i
 1. end sort
 ## Algorithm for swap
